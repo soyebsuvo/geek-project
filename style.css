@@ -2,3 +2,32 @@
     margin: 0px;
     padding: 0px;
 }
+
+.nav-container{
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px;
+}
+.nav-logo{
+    cursor: pointer;
+}
+.logo-img{
+    width: 150px;
+}
+.nav-menus{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+.items{
+    margin-right: 14px;
+    padding-right: 7px;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.items:hover{
+    text-decoration: underline;
+}

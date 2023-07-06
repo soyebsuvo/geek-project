@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+/* Navbar design starts here  */
+
 .nav-container{
     background-color: rgb(48, 46, 46);
     display: flex;
@@ -31,3 +33,50 @@
 .items:hover{
     text-decoration: underline;
 }
+
+/* navbar design ends here  */
+
+/* banner section design starts here  */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/background.png),linear-gradient(45deg,rgb(15, 14, 14),rgb(28, 27, 27));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-inline-start: 30px;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.banner-img{
+    width: 400px;
+}
+.banner-text p{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.banner-text button{
+    padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    margin-top: 8px;
+    border: 1px solid red;
+    transition: all .4s;
+}
+
+.banner-text button:hover{
+    background:none;
+    border: 1px solid white;
+}
+
+/* banner section design ends here  */
+

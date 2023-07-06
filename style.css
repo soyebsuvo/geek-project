@@ -56,18 +56,18 @@
     margin-bottom: 8px;
 }
 .banner-img{
-    width: 400px;
+    width: 300px;
 }
 .banner-text p{
     font-size: 18px;
     margin: 10px 0px;
 }
-.banner-text button{
+.btn{
     padding: 10px 20px ;
     background-color: red;
     color: white;
     border: none;
-    border-radius: 1px;
+    border-radius: 3px;
     margin-top: 8px;
     border: 1px solid red;
     transition: all .4s;
@@ -80,3 +80,32 @@
 
 /* banner section design ends here  */
 
+/* about us section starts here  */
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.about-text h2{
+    font-size: 32px;
+    margin: 10px 0px;
+}
+.about-text p{
+    font-size: 15px;
+    margin: 5px 0px ;
+}
+/* .about-btn{
+    background-color: gray;
+    border: 1px solid gray;
+} */
+
+
+/* about us section ends here  */
